@@ -6,7 +6,7 @@ namespace app{
         class CLaddition{
             public:
                 CLaddition();
-                double addition(double*, int);
+                double addition(double* const, int const) const;
         };
     }
 }

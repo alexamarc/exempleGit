@@ -1,6 +1,6 @@
 #include <iostream>
-#include "serviceCalcul.h/serviceFichier.h"
-#include "ihm.h"
+#include "services/serviceFichier.h"
+#include "client/ihm.h"
 
 namespace IHM {
 void IHM::run(){
