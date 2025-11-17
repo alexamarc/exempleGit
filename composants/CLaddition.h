@@ -1,11 +1,12 @@
 #pragma once 
 
+namespace app{
+    namespace composants{
 
-namespace composants{
-
-    class CLaddition{
-        public:
-            CLaddition();
-            double addition(double*, int);
-    };
+        class CLaddition{
+            public:
+                CLaddition();
+                double addition(double* const, int const) const;
+        };
+    }
 }

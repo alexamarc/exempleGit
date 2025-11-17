@@ -4,7 +4,7 @@ namespace app{
     namespace composants{
         class CLfacture{
             public :
-                void imprimeFacture(double, double, double) const;
+                void imprimeFacture(double const, double const, double const) const;
         };
     }
 }
